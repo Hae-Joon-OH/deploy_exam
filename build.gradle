@@ -59,6 +59,9 @@ dependencies {
     // 스프링부트 시큐리티 관련 설정
     implementation 'org.springframework.boot:spring-boot-starter-security'
 
+    // 카카오 로그인을 위한 OAuth2 Client 관련 설정
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+
 }
 
 tasks.named('test') {
